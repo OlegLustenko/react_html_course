@@ -3,3 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.app-container {
+  background-color: white;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  /*flex-direction: column;*/
+  padding-left: 20em;
+  background-color: bisque;
+}
+
+nav:visited {
+  color: yellow;
+}
+
+nav a :link {
+  color: green;
+}
+
+nav a {
+  margin-left: 5px;
+}
